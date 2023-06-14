@@ -189,7 +189,7 @@ function App() {
 			<h1>TodoList</h1>
 			<div className="todoWrap">
 				{todoList.map((todo) => (
-					<Todo key={todo.id} todo={todo} />
+					<Todo key={todo.id} todos={todo} />
 				))}
 			</div>
 		</div>
